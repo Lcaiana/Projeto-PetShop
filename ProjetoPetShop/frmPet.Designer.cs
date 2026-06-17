@@ -57,158 +57,141 @@
             // lblCod
             // 
             this.lblCod.AutoSize = true;
-            this.lblCod.Location = new System.Drawing.Point(70, 34);
-            this.lblCod.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblCod.Location = new System.Drawing.Point(47, 22);
             this.lblCod.Name = "lblCod";
-            this.lblCod.Size = new System.Drawing.Size(59, 20);
+            this.lblCod.Size = new System.Drawing.Size(40, 13);
             this.lblCod.TabIndex = 0;
             this.lblCod.Text = "Código";
             // 
             // lblCPFTutor
             // 
             this.lblCPFTutor.AutoSize = true;
-            this.lblCPFTutor.Location = new System.Drawing.Point(356, 34);
-            this.lblCPFTutor.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblCPFTutor.Location = new System.Drawing.Point(237, 22);
             this.lblCPFTutor.Name = "lblCPFTutor";
-            this.lblCPFTutor.Size = new System.Drawing.Size(81, 20);
+            this.lblCPFTutor.Size = new System.Drawing.Size(55, 13);
             this.lblCPFTutor.TabIndex = 1;
             this.lblCPFTutor.Text = "CPF Tutor";
             // 
             // lblNasc
             // 
             this.lblNasc.AutoSize = true;
-            this.lblNasc.Location = new System.Drawing.Point(36, 98);
-            this.lblNasc.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblNasc.Location = new System.Drawing.Point(24, 64);
             this.lblNasc.Name = "lblNasc";
-            this.lblNasc.Size = new System.Drawing.Size(93, 20);
+            this.lblNasc.Size = new System.Drawing.Size(63, 13);
             this.lblNasc.TabIndex = 2;
             this.lblNasc.Text = "Nascimento";
             // 
             // lblGenero
             // 
             this.lblGenero.AutoSize = true;
-            this.lblGenero.Location = new System.Drawing.Point(369, 86);
-            this.lblGenero.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblGenero.Location = new System.Drawing.Point(246, 56);
             this.lblGenero.Name = "lblGenero";
-            this.lblGenero.Size = new System.Drawing.Size(63, 20);
+            this.lblGenero.Size = new System.Drawing.Size(42, 13);
             this.lblGenero.TabIndex = 3;
             this.lblGenero.Text = "Genero";
             // 
             // lblRaca
             // 
             this.lblRaca.AutoSize = true;
-            this.lblRaca.Location = new System.Drawing.Point(382, 154);
-            this.lblRaca.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblRaca.Location = new System.Drawing.Point(255, 100);
             this.lblRaca.Name = "lblRaca";
-            this.lblRaca.Size = new System.Drawing.Size(47, 20);
+            this.lblRaca.Size = new System.Drawing.Size(33, 13);
             this.lblRaca.TabIndex = 4;
             this.lblRaca.Text = "Raça";
             // 
             // lblNome
             // 
             this.lblNome.AutoSize = true;
-            this.lblNome.Location = new System.Drawing.Point(70, 154);
-            this.lblNome.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblNome.Location = new System.Drawing.Point(47, 100);
             this.lblNome.Name = "lblNome";
-            this.lblNome.Size = new System.Drawing.Size(51, 20);
+            this.lblNome.Size = new System.Drawing.Size(35, 13);
             this.lblNome.TabIndex = 5;
             this.lblNome.Text = "Nome";
             // 
             // lblEspecie
             // 
             this.lblEspecie.AutoSize = true;
-            this.lblEspecie.Location = new System.Drawing.Point(63, 202);
-            this.lblEspecie.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblEspecie.Location = new System.Drawing.Point(42, 131);
             this.lblEspecie.Name = "lblEspecie";
-            this.lblEspecie.Size = new System.Drawing.Size(66, 20);
+            this.lblEspecie.Size = new System.Drawing.Size(45, 13);
             this.lblEspecie.TabIndex = 6;
             this.lblEspecie.Text = "Espécie";
             // 
             // txtCodigo
             // 
-            this.txtCodigo.Location = new System.Drawing.Point(140, 34);
-            this.txtCodigo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtCodigo.Location = new System.Drawing.Point(93, 22);
             this.txtCodigo.Name = "txtCodigo";
             this.txtCodigo.ReadOnly = true;
-            this.txtCodigo.Size = new System.Drawing.Size(190, 26);
+            this.txtCodigo.Size = new System.Drawing.Size(128, 20);
             this.txtCodigo.TabIndex = 7;
             // 
             // txtCpfTutor
             // 
-            this.txtCpfTutor.Location = new System.Drawing.Point(447, 29);
-            this.txtCpfTutor.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtCpfTutor.Location = new System.Drawing.Point(298, 19);
             this.txtCpfTutor.Name = "txtCpfTutor";
-            this.txtCpfTutor.Size = new System.Drawing.Size(190, 26);
+            this.txtCpfTutor.Size = new System.Drawing.Size(128, 20);
             this.txtCpfTutor.TabIndex = 8;
             // 
             // cbGenero
             // 
             this.cbGenero.FormattingEnabled = true;
-            this.cbGenero.Location = new System.Drawing.Point(447, 86);
-            this.cbGenero.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.cbGenero.Location = new System.Drawing.Point(298, 56);
             this.cbGenero.Name = "cbGenero";
-            this.cbGenero.Size = new System.Drawing.Size(190, 28);
+            this.cbGenero.Size = new System.Drawing.Size(128, 21);
             this.cbGenero.TabIndex = 9;
             // 
             // txtRaca
             // 
-            this.txtRaca.Location = new System.Drawing.Point(447, 149);
-            this.txtRaca.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtRaca.Location = new System.Drawing.Point(298, 97);
             this.txtRaca.Name = "txtRaca";
-            this.txtRaca.Size = new System.Drawing.Size(190, 26);
+            this.txtRaca.Size = new System.Drawing.Size(128, 20);
             this.txtRaca.TabIndex = 10;
             // 
             // dtpPet
             // 
-            this.dtpPet.Location = new System.Drawing.Point(140, 89);
-            this.dtpPet.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.dtpPet.Location = new System.Drawing.Point(93, 58);
             this.dtpPet.Name = "dtpPet";
-            this.dtpPet.Size = new System.Drawing.Size(190, 26);
+            this.dtpPet.Size = new System.Drawing.Size(128, 20);
             this.dtpPet.TabIndex = 11;
             // 
             // txtNome
             // 
-            this.txtNome.Location = new System.Drawing.Point(140, 143);
-            this.txtNome.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtNome.Location = new System.Drawing.Point(93, 93);
             this.txtNome.Name = "txtNome";
-            this.txtNome.Size = new System.Drawing.Size(190, 26);
+            this.txtNome.Size = new System.Drawing.Size(128, 20);
             this.txtNome.TabIndex = 12;
             // 
             // txtEspecie
             // 
-            this.txtEspecie.Location = new System.Drawing.Point(140, 197);
-            this.txtEspecie.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtEspecie.Location = new System.Drawing.Point(93, 128);
             this.txtEspecie.Name = "txtEspecie";
-            this.txtEspecie.Size = new System.Drawing.Size(190, 26);
+            this.txtEspecie.Size = new System.Drawing.Size(128, 20);
             this.txtEspecie.TabIndex = 13;
             // 
             // gridPet
             // 
             this.gridPet.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.gridPet.Location = new System.Drawing.Point(18, 463);
-            this.gridPet.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.gridPet.Location = new System.Drawing.Point(12, 301);
             this.gridPet.Name = "gridPet";
             this.gridPet.RowHeadersWidth = 62;
-            this.gridPet.Size = new System.Drawing.Size(1164, 211);
+            this.gridPet.Size = new System.Drawing.Size(776, 137);
             this.gridPet.TabIndex = 14;
             this.gridPet.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gridPet_CellDoubleClick);
             // 
             // pbFotoPet
             // 
-            this.pbFotoPet.Location = new System.Drawing.Point(794, 18);
-            this.pbFotoPet.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pbFotoPet.Location = new System.Drawing.Point(529, 12);
             this.pbFotoPet.Name = "pbFotoPet";
-            this.pbFotoPet.Size = new System.Drawing.Size(180, 172);
+            this.pbFotoPet.Size = new System.Drawing.Size(120, 112);
             this.pbFotoPet.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbFotoPet.TabIndex = 15;
             this.pbFotoPet.TabStop = false;
             // 
             // btnCadastrar
             // 
-            this.btnCadastrar.Location = new System.Drawing.Point(140, 271);
-            this.btnCadastrar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnCadastrar.Location = new System.Drawing.Point(93, 176);
             this.btnCadastrar.Name = "btnCadastrar";
-            this.btnCadastrar.Size = new System.Drawing.Size(162, 77);
+            this.btnCadastrar.Size = new System.Drawing.Size(108, 50);
             this.btnCadastrar.TabIndex = 16;
             this.btnCadastrar.Text = "Cadastrar";
             this.btnCadastrar.UseVisualStyleBackColor = true;
@@ -216,10 +199,9 @@
             // 
             // btnAlterar
             // 
-            this.btnAlterar.Location = new System.Drawing.Point(140, 357);
-            this.btnAlterar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnAlterar.Location = new System.Drawing.Point(93, 232);
             this.btnAlterar.Name = "btnAlterar";
-            this.btnAlterar.Size = new System.Drawing.Size(162, 77);
+            this.btnAlterar.Size = new System.Drawing.Size(108, 50);
             this.btnAlterar.TabIndex = 17;
             this.btnAlterar.Text = "Alterar";
             this.btnAlterar.UseVisualStyleBackColor = true;
@@ -227,10 +209,9 @@
             // 
             // btnExcluir
             // 
-            this.btnExcluir.Location = new System.Drawing.Point(310, 271);
-            this.btnExcluir.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnExcluir.Location = new System.Drawing.Point(207, 176);
             this.btnExcluir.Name = "btnExcluir";
-            this.btnExcluir.Size = new System.Drawing.Size(162, 77);
+            this.btnExcluir.Size = new System.Drawing.Size(108, 50);
             this.btnExcluir.TabIndex = 18;
             this.btnExcluir.Text = "Excluir";
             this.btnExcluir.UseVisualStyleBackColor = true;
@@ -238,10 +219,9 @@
             // 
             // btnPesquisar
             // 
-            this.btnPesquisar.Location = new System.Drawing.Point(310, 357);
-            this.btnPesquisar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnPesquisar.Location = new System.Drawing.Point(207, 232);
             this.btnPesquisar.Name = "btnPesquisar";
-            this.btnPesquisar.Size = new System.Drawing.Size(162, 77);
+            this.btnPesquisar.Size = new System.Drawing.Size(108, 50);
             this.btnPesquisar.TabIndex = 19;
             this.btnPesquisar.Text = "Pesquisar";
             this.btnPesquisar.UseVisualStyleBackColor = true;
@@ -249,10 +229,9 @@
             // 
             // btnAddFoto
             // 
-            this.btnAddFoto.Location = new System.Drawing.Point(504, 308);
-            this.btnAddFoto.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnAddFoto.Location = new System.Drawing.Point(336, 200);
             this.btnAddFoto.Name = "btnAddFoto";
-            this.btnAddFoto.Size = new System.Drawing.Size(162, 77);
+            this.btnAddFoto.Size = new System.Drawing.Size(108, 50);
             this.btnAddFoto.TabIndex = 20;
             this.btnAddFoto.Text = "Adicionar Foto";
             this.btnAddFoto.UseVisualStyleBackColor = true;
@@ -264,10 +243,10 @@
             // 
             // frmPet
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(1200, 692);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btnAddFoto);
             this.Controls.Add(this.btnPesquisar);
             this.Controls.Add(this.btnExcluir);
@@ -289,8 +268,8 @@
             this.Controls.Add(this.lblNasc);
             this.Controls.Add(this.lblCPFTutor);
             this.Controls.Add(this.lblCod);
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "frmPet";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmPet";
             this.Load += new System.EventHandler(this.frmPet_Load);
             ((System.ComponentModel.ISupportInitialize)(this.gridPet)).EndInit();

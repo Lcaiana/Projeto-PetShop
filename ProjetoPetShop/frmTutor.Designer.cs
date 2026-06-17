@@ -177,6 +177,7 @@
             this.Controls.Add(this.lblCPF);
             this.Controls.Add(this.lblNome);
             this.Name = "frmTutor";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmTutor";
             this.Load += new System.EventHandler(this.frmTutor_Load);
             ((System.ComponentModel.ISupportInitialize)(this.gridTutor)).EndInit();

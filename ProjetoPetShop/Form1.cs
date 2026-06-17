@@ -56,5 +56,11 @@ namespace ProjetoPetShop
         {
 
         }
+
+        private void sobreToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmSobre sobre = new frmSobre();
+            sobre.Show();
+        }
     }
 }
