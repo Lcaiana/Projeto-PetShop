@@ -6,6 +6,7 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Configuration;
 
 namespace ProjetoPetShop
 {
@@ -21,8 +22,8 @@ namespace ProjetoPetShop
             set { _StrSql = value; }
         }
 
-        private string _StrConexao = "datasource=localhost;username=root;password=;database=PetShop";
-        
+        private string _StrConexao = ConfigurationManager.ConnectionStrings["DefaultConnection"].ConnectionString;
+
         public MySqlConnection AbrirBanco()
         {
             MySqlConnection Conexao = new MySqlConnection();
@@ -31,7 +32,7 @@ namespace ProjetoPetShop
             return Conexao;
         }
 
-        public void FecharBanco(SqlConnection Conexao)
+        public void FecharBanco(MySqlConnection Conexao)
         {
             if(Conexao.State == ConnectionState.Open)
             {
