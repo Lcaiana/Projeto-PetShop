@@ -78,7 +78,7 @@ namespace ProjetoPetShop
 
             // Validação para verificar se o CPF do Tutor existe
             string queryValidar = "SELECT COUNT(*) FROM tutor WHERE CPF_tutor = @CPF_validar";
-            MySqlCommand cmdValidar = new MySqlCommand(queryValidar, Conexao.comand.Connection); // Certifique-se de usar a propriedade correta de sua conexão ativa
+            MySqlCommand cmdValidar = new MySqlCommand(queryValidar, Conexao.comand.Connection); 
             cmdValidar.Parameters.AddWithValue("@CPF_validar", txtCpfTutor.Text.Trim());
 
             try
@@ -107,7 +107,7 @@ namespace ProjetoPetShop
                     Conexao.comand.Connection.Close();
             }
 
-            //1) Limpa o StringBuilder e monta o INSERT (repare que não colocamos a coluna do código auto increment)
+            //1) Limpa o StringBuilder e monta o INSERT
             ComandSql.Remove(0, ComandSql.Length);
             ComandSql.Append("INSERT INTO pet");
             ComandSql.Append(" (CPF_tutor, Nome_pet, Especie_pet, Nasc_pet, Genero_pet, Raca_pet, Foto_pet) ");
@@ -386,6 +386,16 @@ namespace ProjetoPetShop
             {
                 pbFotoPet.ImageLocation = dialog.FileName;
             }
+        }
+
+        private void btnLimpar_Click(object sender, EventArgs e)
+        {
+            LimparCampos();
+        }
+
+        private void btnSair_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

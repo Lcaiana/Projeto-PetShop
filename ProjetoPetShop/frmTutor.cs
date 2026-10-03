@@ -92,7 +92,7 @@ namespace ProjetoPetShop
             {
                 if (Conexao.ExecutarComando() > 0)
                 {
-                    MessageBox.Show("Pet cadastrado com sucesso!", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show("Tutor cadastrado com sucesso!", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     ChamarGrid();
                     LimparCampos();
                 }
@@ -174,6 +174,16 @@ namespace ProjetoPetShop
                 //3) Executa automaticamente o evento de click do botão pesquisar
                 btnPesquisar_Click(sender, e);
             }
+        }
+
+        private void btnLimpar_Click(object sender, EventArgs e)
+        {
+            LimparCampos();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

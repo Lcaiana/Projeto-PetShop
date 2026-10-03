@@ -11,7 +11,7 @@ namespace ProjetoPetShop
 {
     internal class clsConexao
     {
-        MySqlConnection Conexao = new MySqlConnection();
+        public MySqlConnection Conexao = new MySqlConnection();
         public MySqlCommand comand = new MySqlCommand();
 
         private string _StrSql;
@@ -23,7 +23,7 @@ namespace ProjetoPetShop
 
         private string _StrConexao = "datasource=localhost;username=root;password=;database=PetShop";
         
-        private MySqlConnection AbrirBanco()
+        public MySqlConnection AbrirBanco()
         {
             MySqlConnection Conexao = new MySqlConnection();
             Conexao.ConnectionString = _StrConexao;
@@ -31,11 +31,37 @@ namespace ProjetoPetShop
             return Conexao;
         }
 
-        private void FecharBanco(SqlConnection Conexao)
+        public void FecharBanco(SqlConnection Conexao)
         {
             if(Conexao.State == ConnectionState.Open)
             {
                    Conexao.Close();
+            }
+        }
+
+        public DataTable RetornarDataTable()
+        {
+            MySqlDataAdapter dataAdapter = new MySqlDataAdapter();
+            DataTable dataTable = new DataTable();
+
+            try
+            {
+                Conexao = AbrirBanco();
+                comand.CommandText = _StrSql;
+                comand.CommandType = CommandType.Text;
+                comand.Connection = Conexao;
+
+                dataAdapter.SelectCommand = comand;
+                dataAdapter.Fill(dataTable);
+                return dataTable;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            finally
+            {
+                Conexao.Close();
             }
         }
 

@@ -99,11 +99,11 @@
             // 
             this.lblDesenvolvedores.AutoSize = true;
             this.lblDesenvolvedores.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDesenvolvedores.Location = new System.Drawing.Point(45, 235);
+            this.lblDesenvolvedores.Location = new System.Drawing.Point(59, 236);
             this.lblDesenvolvedores.Name = "lblDesenvolvedores";
-            this.lblDesenvolvedores.Size = new System.Drawing.Size(120, 16);
+            this.lblDesenvolvedores.Size = new System.Drawing.Size(106, 16);
             this.lblDesenvolvedores.TabIndex = 5;
-            this.lblDesenvolvedores.Text = "Desenvolvedores:";
+            this.lblDesenvolvedores.Text = "Desenvolvedor:";
             // 
             // lblFaleConosco
             // 
@@ -141,9 +141,10 @@
             this.label1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(198, 235);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(122, 68);
+            this.label1.Size = new System.Drawing.Size(92, 17);
             this.label1.TabIndex = 9;
-            this.label1.Text = "Luan Caiana\r\nGustavo Prates\r\nLuiz Felipe\r\nGiovanni Pinheiro\r\n";
+            this.label1.Text = "Luan Caiana\r";
+            this.label1.Click += new System.EventHandler(this.label1_Click_1);
             // 
             // label2
             // 

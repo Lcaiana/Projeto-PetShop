@@ -41,6 +41,8 @@
             this.btnExcluir = new System.Windows.Forms.Button();
             this.btnAlterar = new System.Windows.Forms.Button();
             this.gridTutor = new System.Windows.Forms.DataGridView();
+            this.btnLimpar = new System.Windows.Forms.Button();
+            this.btnSair = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.gridTutor)).BeginInit();
             this.SuspendLayout();
             // 
@@ -157,12 +159,34 @@
             this.gridTutor.TabIndex = 12;
             this.gridTutor.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gridTutor_CellDoubleClick);
             // 
+            // btnLimpar
+            // 
+            this.btnLimpar.Location = new System.Drawing.Point(458, 179);
+            this.btnLimpar.Name = "btnLimpar";
+            this.btnLimpar.Size = new System.Drawing.Size(104, 57);
+            this.btnLimpar.TabIndex = 13;
+            this.btnLimpar.Text = "Limpar";
+            this.btnLimpar.UseVisualStyleBackColor = true;
+            this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
+            // 
+            // btnSair
+            // 
+            this.btnSair.Location = new System.Drawing.Point(683, 20);
+            this.btnSair.Name = "btnSair";
+            this.btnSair.Size = new System.Drawing.Size(90, 43);
+            this.btnSair.TabIndex = 14;
+            this.btnSair.Text = "Sair";
+            this.btnSair.UseVisualStyleBackColor = true;
+            this.btnSair.Click += new System.EventHandler(this.button1_Click);
+            // 
             // frmTutor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnSair);
+            this.Controls.Add(this.btnLimpar);
             this.Controls.Add(this.gridTutor);
             this.Controls.Add(this.btnAlterar);
             this.Controls.Add(this.btnExcluir);
@@ -201,5 +225,7 @@
         private System.Windows.Forms.Button btnExcluir;
         private System.Windows.Forms.Button btnAlterar;
         private System.Windows.Forms.DataGridView gridTutor;
+        private System.Windows.Forms.Button btnLimpar;
+        private System.Windows.Forms.Button btnSair;
     }
 }

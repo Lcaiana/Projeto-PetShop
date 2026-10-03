@@ -50,6 +50,8 @@
             this.btnPesquisar = new System.Windows.Forms.Button();
             this.btnAddFoto = new System.Windows.Forms.Button();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.btnLimpar = new System.Windows.Forms.Button();
+            this.btnSair = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.gridPet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbFotoPet)).BeginInit();
             this.SuspendLayout();
@@ -229,7 +231,7 @@
             // 
             // btnAddFoto
             // 
-            this.btnAddFoto.Location = new System.Drawing.Point(336, 200);
+            this.btnAddFoto.Location = new System.Drawing.Point(332, 232);
             this.btnAddFoto.Name = "btnAddFoto";
             this.btnAddFoto.Size = new System.Drawing.Size(108, 50);
             this.btnAddFoto.TabIndex = 20;
@@ -241,12 +243,34 @@
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
             // 
+            // btnLimpar
+            // 
+            this.btnLimpar.Location = new System.Drawing.Point(332, 176);
+            this.btnLimpar.Name = "btnLimpar";
+            this.btnLimpar.Size = new System.Drawing.Size(108, 50);
+            this.btnLimpar.TabIndex = 21;
+            this.btnLimpar.Text = "Limpar";
+            this.btnLimpar.UseVisualStyleBackColor = true;
+            this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
+            // 
+            // btnSair
+            // 
+            this.btnSair.Location = new System.Drawing.Point(512, 198);
+            this.btnSair.Name = "btnSair";
+            this.btnSair.Size = new System.Drawing.Size(108, 50);
+            this.btnSair.TabIndex = 22;
+            this.btnSair.Text = "Sair";
+            this.btnSair.UseVisualStyleBackColor = true;
+            this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
+            // 
             // frmPet
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnSair);
+            this.Controls.Add(this.btnLimpar);
             this.Controls.Add(this.btnAddFoto);
             this.Controls.Add(this.btnPesquisar);
             this.Controls.Add(this.btnExcluir);
@@ -303,5 +327,7 @@
         private System.Windows.Forms.Button btnPesquisar;
         private System.Windows.Forms.Button btnAddFoto;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
+        private System.Windows.Forms.Button btnLimpar;
+        private System.Windows.Forms.Button btnSair;
     }
 }
