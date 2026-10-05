@@ -26,7 +26,7 @@ Aplicação desktop desenvolvida em C# (.NET Framework 4.7.2) para otimizar o ge
 ![Screenshot da Tela de Cadastro de Pets](assets/cadastro_pet.png)
 
 ### Tela de Listagem de Pets
-![Screenshot da Tela de Listagem](assets/listagem.png)
+![Screenshot da Tela de Listagem](assets/listagens.png)
 
 ### Tela Splash
 ![Screenshot da Tela Splash](assets/tela_splash.png)
